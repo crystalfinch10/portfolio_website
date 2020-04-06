@@ -46,43 +46,45 @@ h3 {
     font-size: 25px;
 }
 
-.menu {
-float:left;
-width:20%;
-text-align:center;
-
+div.menu {
+    float:left;
+    width:20%;
+    text-align:center;
 }
 
 .menu a {
-background-color:#e5e5e5;
-padding:8px;
-margin-top:7px;
-display:block;
-width:100%;
-color:black;
-text-decoration: none;
+    background-color:#e5e5e5;
+    padding:8px;
+    margin-top:7px;
+    display:block;
+    width:100%;
+    color:black;
+    text-decoration: none;
 }
 
 .main {
-float:left;
-width:60%;
-padding:0 20px;
+    text-align: center;
+    float:left;
+    width:60%;
+    padding:0 20px;
+    /* background-color: #e5e5e5; */
+    
 }
 
 .right {
-background-color:#e5e5e5;
-float:left;
-width:20%;
-padding:15px;
-margin-top:7px;
-text-align:center;
+    background-color:#e5e5e5;
+    float:left;
+    width:20%;
+    padding:15px;
+    margin-top:7px;
+    text-align:center;
 }
 
 .edie {
-    float:right;
-    width:30%;
-    padding:15px;
-    margin-top:5px;
+    /* float:right; */
+    width:60%;
+    /* padding:15px; */
+    /* margin-top:5px; */
     text-align:center;
 }
 
@@ -103,7 +105,10 @@ text-align:center;
     font-size: 1rem;
     line-height: 1.5;
     border-radius: 0.25rem;
-    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+
+  div.container.text-center {
+      text-align: center;
   }
 
 @media only screen and (max-width:620px) {
